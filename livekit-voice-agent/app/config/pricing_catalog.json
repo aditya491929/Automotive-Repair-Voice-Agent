@@ -1,0 +1,764 @@
+{
+  "services": [
+    {
+      "code": "diagnostic_basic",
+      "name": "Basic Diagnostic (OBD-II Scan & Visual Check)",
+      "labor_hours": 0.5,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "diagnostic_advanced",
+      "name": "Advanced Diagnostic (Electrical/Driveability)",
+      "labor_hours": 1.0,
+      "base_parts_cost": 0
+    },
+
+    {
+      "code": "oil_change",
+      "name": "Engine Oil & Filter Change (Synthetic)",
+      "labor_hours": 0.7,
+      "base_parts_cost": 45
+    },
+    {
+      "code": "oil_change_conventional",
+      "name": "Engine Oil & Filter Change (Conventional)",
+      "labor_hours": 0.6,
+      "base_parts_cost": 30
+    },
+
+    {
+      "code": "engine_air_filter",
+      "name": "Engine Air Filter Replacement",
+      "labor_hours": 0.2,
+      "base_parts_cost": 20
+    },
+    {
+      "code": "air_filter_replacement",
+      "name": "Air Filter Replacement",
+      "labor_hours": 0.3,
+      "base_parts_cost": 25
+    },
+
+    {
+      "code": "cabin_filter",
+      "name": "Cabin Air Filter Replacement",
+      "labor_hours": 0.3,
+      "base_parts_cost": 18
+    },
+    {
+      "code": "cabin_filter_replacement",
+      "name": "Cabin Air Filter Replacement",
+      "labor_hours": 0.5,
+      "base_parts_cost": 35
+    },
+
+    {
+      "code": "fuel_filter",
+      "name": "Fuel Filter Replacement (Inline)",
+      "labor_hours": 0.7,
+      "base_parts_cost": 35
+    },
+
+    {
+      "code": "spark_plugs_4cyl",
+      "name": "Spark Plug Replacement (4-Cylinder)",
+      "labor_hours": 1.2,
+      "base_parts_cost": 40
+    },
+    {
+      "code": "spark_plugs_6cyl",
+      "name": "Spark Plug Replacement (V6)",
+      "labor_hours": 2.0,
+      "base_parts_cost": 60
+    },
+    {
+      "code": "spark_plugs_8cyl",
+      "name": "Spark Plug Replacement (V8)",
+      "labor_hours": 2.5,
+      "base_parts_cost": 80
+    },
+    {
+      "code": "spark_plug_replacement",
+      "name": "Spark Plug Replacement",
+      "labor_hours": 1.5,
+      "base_parts_cost": 45
+    },
+    {
+      "code": "ignition_coil",
+      "name": "Ignition Coil Replacement (Each)",
+      "labor_hours": 0.5,
+      "base_parts_cost": 50
+    },
+
+    {
+      "code": "battery_test_replace",
+      "name": "Battery Test & Replacement",
+      "labor_hours": 0.4,
+      "base_parts_cost": 140
+    },
+    {
+      "code": "battery_replacement",
+      "name": "Battery Replacement",
+      "labor_hours": 0.5,
+      "base_parts_cost": 125
+    },
+    {
+      "code": "alternator_replace",
+      "name": "Alternator Replacement",
+      "labor_hours": 1.5,
+      "base_parts_cost": 260
+    },
+    {
+      "code": "alternator_replacement",
+      "name": "Alternator Replacement",
+      "labor_hours": 2.5,
+      "base_parts_cost": 285
+    },
+    {
+      "code": "starter_replace",
+      "name": "Starter Motor Replacement",
+      "labor_hours": 1.3,
+      "base_parts_cost": 220
+    },
+    {
+      "code": "starter_replacement",
+      "name": "Starter Replacement",
+      "labor_hours": 2.0,
+      "base_parts_cost": 195
+    },
+
+    {
+      "code": "serpentine_belt",
+      "name": "Serpentine Belt Replacement",
+      "labor_hours": 0.6,
+      "base_parts_cost": 35
+    },
+    {
+      "code": "serpentine_belt_replacement",
+      "name": "Serpentine Belt Replacement",
+      "labor_hours": 1.0,
+      "base_parts_cost": 35
+    },
+    {
+      "code": "timing_belt_kit",
+      "name": "Timing Belt Kit (Belt, Tensioner, Seals)",
+      "labor_hours": 5.5,
+      "base_parts_cost": 220
+    },
+    {
+      "code": "timing_belt_replacement",
+      "name": "Timing Belt Replacement",
+      "labor_hours": 4.0,
+      "base_parts_cost": 125
+    },
+
+    {
+      "code": "water_pump",
+      "name": "Water Pump Replacement",
+      "labor_hours": 3.0,
+      "base_parts_cost": 120
+    },
+    {
+      "code": "water_pump_replacement",
+      "name": "Water Pump Replacement",
+      "labor_hours": 3.0,
+      "base_parts_cost": 95
+    },
+    {
+      "code": "thermostat",
+      "name": "Thermostat Replacement",
+      "labor_hours": 0.8,
+      "base_parts_cost": 35
+    },
+    {
+      "code": "radiator_replace",
+      "name": "Radiator Replacement",
+      "labor_hours": 2.5,
+      "base_parts_cost": 220
+    },
+    {
+      "code": "radiator_flush",
+      "name": "Radiator Flush",
+      "labor_hours": 1.5,
+      "base_parts_cost": 25
+    },
+
+    {
+      "code": "coolant_flush",
+      "name": "Cooling System Flush & Refill",
+      "labor_hours": 0.8,
+      "base_parts_cost": 35
+    },
+    {
+      "code": "power_steering_flush",
+      "name": "Power Steering Fluid Flush",
+      "labor_hours": 0.6,
+      "base_parts_cost": 12
+    },
+
+    {
+      "code": "transmission_service",
+      "name": "Transmission Service",
+      "labor_hours": 1.5,
+      "base_parts_cost": 45
+    },
+    {
+      "code": "transmission_flush",
+      "name": "Transmission Flush",
+      "labor_hours": 2.0,
+      "base_parts_cost": 85
+    },
+    {
+      "code": "transmission_service_auto",
+      "name": "Automatic Transmission Fluid & Filter Service",
+      "labor_hours": 1.8,
+      "base_parts_cost": 85
+    },
+    {
+      "code": "transmission_dct_cvt_service",
+      "name": "DCT/CVT Fluid Service (No Filter)",
+      "labor_hours": 1.5,
+      "base_parts_cost": 90
+    },
+
+    {
+      "code": "brake_inspection",
+      "name": "Brake System Inspection",
+      "labor_hours": 0.5,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "brake_pad_replacement",
+      "name": "Brake Pad Replacement (Front)",
+      "labor_hours": 1.5,
+      "base_parts_cost": 85
+    },
+    {
+      "code": "brake_pad_replacement_rear",
+      "name": "Brake Pad Replacement (Rear)",
+      "labor_hours": 1.5,
+      "base_parts_cost": 75
+    },
+    {
+      "code": "brake_rotor_replacement",
+      "name": "Brake Rotor Replacement (Front)",
+      "labor_hours": 2.0,
+      "base_parts_cost": 120
+    },
+    {
+      "code": "brake_rotor_replacement_rear",
+      "name": "Brake Rotor Replacement (Rear)",
+      "labor_hours": 2.0,
+      "base_parts_cost": 110
+    },
+
+    {
+      "code": "brake_fluid_flush",
+      "name": "Brake Fluid Flush",
+      "labor_hours": 0.9,
+      "base_parts_cost": 18
+    },
+    {
+      "code": "brake_pads_front",
+      "name": "Brake Pad Replacement (Front Axle)",
+      "labor_hours": 1.0,
+      "base_parts_cost": 85
+    },
+    {
+      "code": "brake_pads_rear",
+      "name": "Brake Pad Replacement (Rear Axle)",
+      "labor_hours": 1.0,
+      "base_parts_cost": 80
+    },
+    {
+      "code": "brake_rotors_front",
+      "name": "Brake Rotor Replacement (Front Axle)",
+      "labor_hours": 1.2,
+      "base_parts_cost": 140
+    },
+    {
+      "code": "brake_rotors_rear",
+      "name": "Brake Rotor Replacement (Rear Axle)",
+      "labor_hours": 1.2,
+      "base_parts_cost": 130
+    },
+    {
+      "code": "brake_pad_rotor_package_front",
+      "name": "Brake Pads & Rotors Package (Front)",
+      "labor_hours": 2.2,
+      "base_parts_cost": 215
+    },
+    {
+      "code": "brake_pad_rotor_package_rear",
+      "name": "Brake Pads & Rotors Package (Rear)",
+      "labor_hours": 2.2,
+      "base_parts_cost": 205
+    },
+    {
+      "code": "brake_caliper_replace_each",
+      "name": "Brake Caliper Replacement (Each)",
+      "labor_hours": 1.0,
+      "base_parts_cost": 120
+    },
+    {
+      "code": "parking_brake_service",
+      "name": "Parking Brake Adjustment/Service",
+      "labor_hours": 0.8,
+      "base_parts_cost": 0
+    },
+
+    {
+      "code": "tire_rotation",
+      "name": "Tire Rotation",
+      "labor_hours": 0.5,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "tire_balance",
+      "name": "Tire Balance (4)",
+      "labor_hours": 0.8,
+      "base_parts_cost": 8
+    },
+    {
+      "code": "tire_mount_balance",
+      "name": "Tire Mount & Balance (Per Tire)",
+      "labor_hours": 0.5,
+      "base_parts_cost": 3
+    },
+    {
+      "code": "tpms_sensor_replace",
+      "name": "TPMS Sensor Replacement (Each)",
+      "labor_hours": 0.4,
+      "base_parts_cost": 45
+    },
+
+    {
+      "code": "wheel_alignment",
+      "name": "Wheel Alignment",
+      "labor_hours": 1.0,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "wheel_alignment_standard",
+      "name": "Four-Wheel Alignment (Standard)",
+      "labor_hours": 1.0,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "wheel_alignment_after_susp",
+      "name": "Alignment After Suspension Work",
+      "labor_hours": 1.2,
+      "base_parts_cost": 0
+    },
+
+    {
+      "code": "suspension_inspection",
+      "name": "Suspension Inspection (Front)",
+      "labor_hours": 1.0,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "shock_absorber_replacement",
+      "name": "Shock Absorber Replacement (Front)",
+      "labor_hours": 2.0,
+      "base_parts_cost": 125
+    },
+    {
+      "code": "struts_replacement",
+      "name": "Struts Replacement (Front)",
+      "labor_hours": 2.5,
+      "base_parts_cost": 195
+    },
+    {
+      "code": "struts_front_pair",
+      "name": "Front Strut Assembly Replacement (Pair)",
+      "labor_hours": 3.0,
+      "base_parts_cost": 340
+    },
+    {
+      "code": "shocks_rear_pair",
+      "name": "Rear Shock Absorber Replacement (Pair)",
+      "labor_hours": 1.8,
+      "base_parts_cost": 180
+    },
+    {
+      "code": "control_arm_front_each",
+      "name": "Front Control Arm Replacement (Each)",
+      "labor_hours": 1.5,
+      "base_parts_cost": 140
+    },
+    {
+      "code": "ball_joint_each",
+      "name": "Ball Joint Replacement (Each)",
+      "labor_hours": 1.2,
+      "base_parts_cost": 60
+    },
+    {
+      "code": "outer_tie_rod_each",
+      "name": "Outer Tie Rod End Replacement (Each)",
+      "labor_hours": 0.7,
+      "base_parts_cost": 35
+    },
+    {
+      "code": "sway_bar_link_each",
+      "name": "Sway Bar Link Replacement (Each)",
+      "labor_hours": 0.6,
+      "base_parts_cost": 28
+    },
+    {
+      "code": "cv_axle_each",
+      "name": "CV Axle Replacement (Each)",
+      "labor_hours": 1.8,
+      "base_parts_cost": 160
+    },
+    {
+      "code": "wheel_bearing_hub_each",
+      "name": "Wheel Bearing/Hub Assembly (Each)",
+      "labor_hours": 1.6,
+      "base_parts_cost": 120
+    },
+
+    {
+      "code": "ac_recharge",
+      "name": "A/C Recharge (R-134a or R-1234yf *)",
+      "labor_hours": 0.8,
+      "base_parts_cost": 40
+    },
+    {
+      "code": "ac_diagnostic",
+      "name": "A/C System Diagnostic",
+      "labor_hours": 1.0,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "ac_compressor_replace",
+      "name": "A/C Compressor Replacement",
+      "labor_hours": 3.5,
+      "base_parts_cost": 420
+    },
+    {
+      "code": "ac_condenser_replace",
+      "name": "A/C Condenser Replacement",
+      "labor_hours": 2.0,
+      "base_parts_cost": 210
+    },
+    {
+      "code": "cabin_evap_core",
+      "name": "A/C Evaporator Core Replacement",
+      "labor_hours": 6.5,
+      "base_parts_cost": 240
+    },
+
+    {
+      "code": "o2_sensor_replace",
+      "name": "Oxygen Sensor Replacement (Each)",
+      "labor_hours": 0.6,
+      "base_parts_cost": 65
+    },
+    {
+      "code": "catalytic_converter",
+      "name": "Catalytic Converter Replacement",
+      "labor_hours": 2.5,
+      "base_parts_cost": 650
+    },
+    {
+      "code": "muffler_replace",
+      "name": "Muffler/Exhaust Section Replacement",
+      "labor_hours": 1.5,
+      "base_parts_cost": 180
+    },
+
+    {
+      "code": "windshield_wipers",
+      "name": "Windshield Wiper Blade Replacement (Pair)",
+      "labor_hours": 0.2,
+      "base_parts_cost": 20
+    },
+    {
+      "code": "headlight_bulb",
+      "name": "Headlight Bulb Replacement (Each)",
+      "labor_hours": 0.3,
+      "base_parts_cost": 18
+    },
+    {
+      "code": "headlight_restore",
+      "name": "Headlight Lens Restoration (Pair)",
+      "labor_hours": 0.8,
+      "base_parts_cost": 15
+    },
+    {
+      "code": "windshield_chip_repair",
+      "name": "Windshield Chip Repair (Per Chip)",
+      "labor_hours": 0.5,
+      "base_parts_cost": 15
+    },
+    {
+      "code": "windshield_replace",
+      "name": "Windshield Replacement (Glass + Install)",
+      "labor_hours": 2.0,
+      "base_parts_cost": 280
+    },
+    {
+      "code": "adas_calibration",
+      "name": "ADAS Calibration (After Glass/Collision)",
+      "labor_hours": 1.5,
+      "base_parts_cost": 0
+    },
+
+    {
+      "code": "emissions_test",
+      "name": "Emissions/Smog Test (Where Applicable)",
+      "labor_hours": 0.4,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "state_inspection",
+      "name": "State Safety Inspection (Where Applicable)",
+      "labor_hours": 0.5,
+      "base_parts_cost": 0
+    },
+
+    {
+      "code": "detail_basic",
+      "name": "Detailing – Basic Interior/Exterior",
+      "labor_hours": 2.0,
+      "base_parts_cost": 15
+    },
+    {
+      "code": "detail_full",
+      "name": "Detailing – Full Interior/Exterior",
+      "labor_hours": 4.0,
+      "base_parts_cost": 30
+    },
+    {
+      "code": "paint_correction_single_stage",
+      "name": "Paint Correction – Single Stage",
+      "labor_hours": 5.0,
+      "base_parts_cost": 25
+    },
+    {
+      "code": "ceramic_coating_2yr",
+      "name": "Ceramic Coating – 2-Year",
+      "labor_hours": 5.0,
+      "base_parts_cost": 120
+    },
+    {
+      "code": "ceramic_coating_5yr",
+      "name": "Ceramic Coating – 5-Year (Pro-Grade)",
+      "labor_hours": 7.0,
+      "base_parts_cost": 220
+    },
+
+    {
+      "code": "ppf_partial_front",
+      "name": "Paint Protection Film – Partial Front (Bumper/Half Hood/Mirrors)",
+      "labor_hours": 8.0,
+      "base_parts_cost": 350
+    },
+    {
+      "code": "ppf_full_front",
+      "name": "Paint Protection Film – Full Front (Bumper/Hood/Fenders/Mirrors)",
+      "labor_hours": 12.0,
+      "base_parts_cost": 600
+    },
+    {
+      "code": "ppf_full_vehicle",
+      "name": "Paint Protection Film – Full Vehicle",
+      "labor_hours": 28.0,
+      "base_parts_cost": 1500
+    },
+
+    {
+      "code": "pdr_per_panel",
+      "name": "Paintless Dent Repair (Per Panel, Light Dent)",
+      "labor_hours": 1.0,
+      "base_parts_cost": 0
+    },
+    {
+      "code": "bumper_respray",
+      "name": "Bumper Respray (Color-Match)",
+      "labor_hours": 4.0,
+      "base_parts_cost": 120
+    },
+    {
+      "code": "panel_repaint",
+      "name": "Panel Repaint (Per Panel)",
+      "labor_hours": 6.0,
+      "base_parts_cost": 180
+    }
+  ],
+  "symptom_map": [
+    { "phrase": "rattle front right", "services": ["suspension_inspection"] },
+    { "phrase": "rattling", "services": ["suspension_inspection"] },
+    { "phrase": "clunk over bumps", "services": ["suspension_inspection"] },
+    { "phrase": "creaking", "services": ["suspension_inspection"] },
+    { "phrase": "creaking sound", "services": ["suspension_inspection"] },
+    { "phrase": "squeaking", "services": ["suspension_inspection"] },
+    { "phrase": "steering play", "services": ["suspension_inspection"] },
+    {
+      "phrase": "pulling to one side",
+      "services": ["wheel_alignment_standard"]
+    },
+
+    { "phrase": "grinding", "services": ["brake_inspection"] },
+    { "phrase": "grinding noise", "services": ["brake_inspection"] },
+    { "phrase": "brake noise", "services": ["brake_inspection"] },
+    {
+      "phrase": "brake squeal",
+      "services": ["brake_inspection", "brake_pads_front", "brake_pads_rear"]
+    },
+    { "phrase": "brake squeaking", "services": ["brake_inspection"] },
+    { "phrase": "brake grinding", "services": ["brake_inspection"] },
+    {
+      "phrase": "brake vibration",
+      "services": [
+        "brake_inspection",
+        "brake_rotors_front",
+        "brake_rotors_rear"
+      ]
+    },
+    {
+      "phrase": "brake pedal soft",
+      "services": ["brake_inspection", "brake_fluid_flush"]
+    },
+    {
+      "phrase": "brake pedal spongy",
+      "services": ["brake_inspection", "brake_fluid_flush"]
+    },
+    { "phrase": "brake fluid low", "services": ["brake_fluid_flush"] },
+
+    { "phrase": "oil change", "services": ["oil_change"] },
+    { "phrase": "oil light", "services": ["oil_change"] },
+    { "phrase": "low oil", "services": ["oil_change"] },
+
+    {
+      "phrase": "transmission slipping",
+      "services": ["transmission_service", "transmission_service_auto"]
+    },
+    {
+      "phrase": "transmission rough",
+      "services": ["transmission_service", "transmission_service_auto"]
+    },
+    {
+      "phrase": "transmission fluid",
+      "services": ["transmission_service", "transmission_service_auto"]
+    },
+
+    { "phrase": "check engine light", "services": ["diagnostic_basic"] },
+    { "phrase": "engine light", "services": ["diagnostic_basic"] },
+    { "phrase": "engine rough", "services": ["diagnostic_basic"] },
+    {
+      "phrase": "engine misfire",
+      "services": ["spark_plugs_4cyl", "diagnostic_basic"]
+    },
+    { "phrase": "engine stalling", "services": ["diagnostic_basic"] },
+    { "phrase": "engine won't start", "services": ["diagnostic_basic"] },
+    { "phrase": "car won't start", "services": ["diagnostic_basic"] },
+    {
+      "phrase": "battery dead",
+      "services": ["battery_replacement", "battery_test_replace"]
+    },
+    {
+      "phrase": "battery weak",
+      "services": ["battery_replacement", "battery_test_replace"]
+    },
+    {
+      "phrase": "alternator",
+      "services": ["alternator_replace", "alternator_replacement"]
+    },
+    {
+      "phrase": "starter",
+      "services": ["starter_replace", "starter_replacement"]
+    },
+
+    { "phrase": "ac not working", "services": ["ac_diagnostic"] },
+    { "phrase": "air conditioning", "services": ["ac_diagnostic"] },
+    { "phrase": "ac not cold", "services": ["ac_recharge"] },
+    { "phrase": "ac noisy compressor", "services": ["ac_compressor_replace"] },
+
+    {
+      "phrase": "car pulling",
+      "services": ["wheel_alignment", "wheel_alignment_standard"]
+    },
+    {
+      "phrase": "steering wheel off",
+      "services": ["wheel_alignment", "wheel_alignment_standard"]
+    },
+    {
+      "phrase": "vibration steering",
+      "services": ["wheel_alignment", "tire_balance"]
+    },
+    { "phrase": "tire wear", "services": ["wheel_alignment_standard"] },
+    { "phrase": "uneven tire wear", "services": ["wheel_alignment_standard"] },
+    { "phrase": "tire balance", "services": ["tire_balance"] },
+    { "phrase": "wheel balance", "services": ["tire_balance"] },
+
+    { "phrase": "shocks", "services": ["shock_absorber_replacement"] },
+    { "phrase": "struts", "services": ["struts_replacement"] },
+    { "phrase": "bouncy ride", "services": ["shock_absorber_replacement"] },
+    { "phrase": "rough ride", "services": ["shock_absorber_replacement"] },
+
+    {
+      "phrase": "overheating",
+      "services": ["coolant_flush", "radiator_flush", "thermostat"]
+    },
+    {
+      "phrase": "engine overheating",
+      "services": ["coolant_flush", "radiator_flush", "thermostat"]
+    },
+    {
+      "phrase": "coolant leak",
+      "services": ["radiator_replace", "water_pump", "water_pump_replacement"]
+    },
+
+    { "phrase": "exhaust noise", "services": ["muffler_replace"] },
+    {
+      "phrase": "failed emissions",
+      "services": ["o2_sensor_replace", "catalytic_converter"]
+    },
+
+    {
+      "phrase": "new tires",
+      "services": ["tire_mount_balance", "wheel_alignment_standard"]
+    },
+    {
+      "phrase": "windshield crack",
+      "services": ["windshield_replace", "adas_calibration"]
+    },
+    { "phrase": "foggy headlights", "services": ["headlight_restore"] },
+
+    {
+      "phrase": "paint protection",
+      "services": ["ceramic_coating_2yr", "ppf_partial_front"]
+    },
+    { "phrase": "full ppf", "services": ["ppf_full_front"] },
+    { "phrase": "dent repair", "services": ["pdr_per_panel"] },
+    { "phrase": "scratched bumper", "services": ["bumper_respray"] },
+
+    { "phrase": "fuel system", "services": ["fuel_system_cleaning"] },
+    { "phrase": "throttle body", "services": ["throttle_body_cleaning"] },
+    { "phrase": "idle rough", "services": ["throttle_body_cleaning"] }
+  ],
+  "upsell_rules": [
+    { "if_mileage_over": 5000, "add": "tire_rotation" },
+    { "if_mileage_over": 15000, "add": "engine_air_filter" },
+    { "if_mileage_over": 20000, "add": "cabin_filter" },
+    { "if_mileage_over": 30000, "add": "brake_fluid_flush" },
+    { "if_mileage_over": 40000, "add": "coolant_flush" },
+    { "if_mileage_over": 50000, "add": "transmission_service" },
+    { "if_mileage_over": 50000, "add": "transmission_service_auto" },
+    { "if_mileage_over": 60000, "add": "spark_plug_replacement" },
+    { "if_mileage_over": 60000, "add": "spark_plugs_4cyl" },
+    { "if_mileage_over": 60000, "add": "wheel_alignment_standard" },
+    { "if_mileage_over": 80000, "add": "differential_service" },
+    { "if_mileage_over": 80000, "add": "transfer_case_service" },
+
+    { "if_phrase_contains": "new tires", "add": "wheel_alignment_standard" },
+    {
+      "if_phrase_contains": "brake squeal",
+      "add": "brake_pad_rotor_package_front"
+    },
+    { "if_phrase_contains": "windshield", "add": "adas_calibration" },
+    { "if_phrase_contains": "paint protection", "add": "ceramic_coating_5yr" }
+  ]
+}

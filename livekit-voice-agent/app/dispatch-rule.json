@@ -1,0 +1,18 @@
+{
+  "dispatch_rule": {
+    "rule": {
+      "dispatchRuleIndividual": {
+        "roomPrefix": "call-"
+      }
+    },
+    "name": "My dispatch rule",
+    "roomConfig": {
+      "agents": [
+        {
+          "agentName": "inbound-agent",
+          "metadata": "job dispatch metadata"
+        }
+      ]
+    }
+  }
+}
