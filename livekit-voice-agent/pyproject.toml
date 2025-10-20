@@ -1,0 +1,29 @@
+[project]
+name = "livekit-voice-agent"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "livekit-agents[silero,turn-detector]~=1.2",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "python-dotenv>=1.1.1",
+    # LLM client (OpenRouter-compatible via OpenAI SDK) + HTTP
+    "openai>=1.46.0",
+    "httpx>=0.27.0",
+    # Data, models, validation
+    "sqlmodel>=0.0.16",
+    "SQLAlchemy>=2.0.25",
+    "pydantic>=2.8.0",
+    "orjson>=3.10.0",
+    # Google Calendar integration
+    "google-api-python-client>=2.146.0",
+    "google-auth>=2.34.0",
+    "google-auth-oauthlib>=1.2.1",
+    # Realtime / websockets (useful for some integrations)
+    "websockets>=12.0",
+    "google-auth-httplib2>=0.2.0",
+    # SMS notifications
+    "twilio>=8.10.0",
+    "livekit-plugins-openai>=1.2.15",
+    "livekit-plugins-deepgram>=1.2.15",
+    "livekit-plugins-elevenlabs>=1.2.15",
+]

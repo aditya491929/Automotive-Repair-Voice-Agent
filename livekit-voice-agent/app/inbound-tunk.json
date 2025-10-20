@@ -1,0 +1,8 @@
+{
+  "trunk": {
+    "name": "My trunk",
+    "numbers": ["+19294166577"],
+    "allowedNumbers": ["+19298131824"],
+    "krispEnabled": true
+  }
+}
